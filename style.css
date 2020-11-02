@@ -1,0 +1,164 @@
+body {
+background-image:url(images/fon2.png);
+margin:0;
+padding:0;
+border:0;
+font-family: 'Nunito', sans-serif;font-weight:400;
+position:relative;
+}
+
+h1 {font-family: 'Vollkorn', serif; font-size:3em;}
+h3 {font-size:1.5em;}
+h4{font-weight:600; font-size:1.1em;}
+h2{font-size:1.5em; text-transform:uppercase;}
+
+/*menu*/
+nav {
+background:rgba(244,244,236,0.5);
+padding:1em;
+width:100%;
+position:fixed;
+}
+
+nav a {
+color:#0d0603;
+font-size:1.2em;
+text-transform:uppercase;
+margin:0.5em;	
+font-weight:400;
+text-decoration:none;	
+}
+
+nav a:hover {
+text-decoration:underline;
+}
+
+/*хедер*/
+
+#header {
+background-image:url(images/fon1.jpg);	
+background-size: cover;
+height:100vh;
+display:flex;
+justify-content:flex-end;
+padding-right:1em;
+}
+
+#name {
+	color:#f4f4ec;
+	text-align:right;
+	padding-top:7em;
+	width:45%;
+	text-shadow:#0c0402 0 0 5px;	
+}
+ /*факты*/
+
+#facts {
+	background-image:url(images/facts.png);
+	display:flex;
+	justify-content:space-around;
+	padding:1em;
+	}
+	
+.text {
+	background-color:rgba(244,244,236,0.5);
+	width:20%;
+	padding:1em;
+	text-align:center;
+	color:#0c0402;
+	font-size:1em;
+	}
+	
+/*колонка*/
+
+.kolonka {
+	width:60%;
+	margin:0 auto;
+	background-color:rgba(244,244,236,0.9);
+	padding:0.9em;
+	color:#0d0603;
+	}
+	
+.kolonka img {width:100%;}
+
+/*цитата*/
+
+#quote {
+	background-image:url(images/facts.png);
+	padding:0.5em;
+	color:#f4f6f0;
+}
+
+#quote p {
+	font-size:3em;
+	font-weight:500;
+	border:0.1em solid #f4f6f0;
+	margin:1em;
+	padding:1em;
+}
+
+/*галерея*/
+
+#gallery {
+	display:flex;
+	justify-content:space-around;
+	margin-bottom:-1em;
+}
+
+#gallery img {
+	width:100%;
+}
+
+figure {
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:#0d0603;
+	font-size:1.2em;
+	font-weight:400;
+	position:relative; 
+}
+
+figure:hover figcaption {
+	background-color:rgba(244,244,236,0.5);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display:block;
+}
+
+figcaption p {
+	position:absolute;
+	left:20%;
+	bottom:0;
+	width:60%;
+}
+
+figure figcaption {
+	display:none;
+}
+
+/*футер*/
+
+#footer {
+    background-color:rgb(76,141,153,0.8);
+	color:#0c0402;
+	width:60%;
+	margin:0 auto;
+	padding:1em;
+	display:flex;
+	justify-content:space-between;
+	text-decoration:none;
+}
+
+#footer a {text-decoration:none;}
+
+#back-to-top {
+	position:absolute;
+	bottom:0;
+	right:0;
+	padding:0.5em;
+}
+
